@@ -3,7 +3,7 @@ import Ios from "../img/App Store.png";
 import Andriod from "../img/androidDownload.png";
 
 const DownloadAds = () => {
-    const downloadImgStyle = "border-[2px] border-[#232A4E] rounded-[13px] h-[3rem] w-[10rem]"
+    const downloadImgStyle = "border-[2px] border-[#232A4E] rounded-[13px] h-[3rem] w-[10rem] hover: cursor-pointer"
   return (
     <div className="download flex">
     <img className={`mr-[2rem] ` + downloadImgStyle} src={Ios} alt="" />
